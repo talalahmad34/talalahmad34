@@ -1,58 +1,113 @@
-### Hi there 👋, I'm Talal Ahmad Chohan
+# Hi, I'm Talal Ahmad Chohan
 
-**Head of IT & MIS | Network Infrastructure Specialist | Python Flask Developer**
+**Head of IT & MIS | Infrastructure Leader | Python Web App Builder**
 
-I am a results-driven IT leader based in Lahore, Pakistan, currently serving as the **Head of IT & MIS** at **Pakistan Engineering Services Pvt. Ltd**. I specialize in bridging the gap between robust network infrastructure and efficient software solutions. My focus is on optimizing IT operations, leading cross-functional teams, and aligning technology with business goals.
+I'm an IT leader based in Lahore, Pakistan, focused on building practical systems that improve operations, visibility, and control. My work sits at the intersection of infrastructure, internal software, and process digitization, with hands-on experience in network administration, security, and Python-based web applications.
 
-- 🔭 **Currently working on:** Internal process digitization using Python Flask and Network Security enhancements.
-- 💼 **Current Role:** Head of IT & MIS at Pakistan Engineering Services Pvt. Ltd.
-- 🎓 **Education:** BS in Information Technology (Virtual University of Pakistan).
-- ⚡ **Focus:** Performance over hype. I prefer direct, practical technical solutions.
+I care about systems that are reliable, useful, and easy for teams to adopt. Most of the projects I build are designed to solve real operational problems, not just demonstrate technology.
 
----
+## What I Do
 
-### 🛠️ Technical Stack & Skills
+- Lead IT and MIS operations in a business environment
+- Design and improve internal processes through custom software
+- Build lightweight Python web apps for workflow automation
+- Manage network infrastructure, access control, backups, and security
+- Bridge technical implementation with business needs
 
-**Development**
-* **Languages:** Python, JavaScript, HTML5, CSS3
-* **Frameworks:** Flask (Python), Tailwind CSS
-* **Database:** SQLite
-* **Deployment:** Waitress WSGI, NAS-based hosting
+## Current Focus
 
-**Infrastructure & Networking**
-* **Certifications/Training:** HCIA (Huawei), CCNA (Cisco), Microsoft Azure
-* **Hardware:** Cisco Switches, DVR/NVR Systems, NAS Backup Solutions
-* **Security:** VPN Servers, Cloud Antivirus, Firewalls, Access Controls
+- Internal process digitization and workflow automation
+- Python web applications using Flask, FastAPI, SQLite, and JavaScript
+- Network reliability, security hardening, and infrastructure planning
+- Practical use of AI tools for productivity and insight extraction
 
-**AI & Data**
-* AI-driven Insight Extraction
-* Prompt Engineering & AI Tool Implementation
+## Featured Projects
 
----
+### [IT Requisition App](https://github.com/talalahmad34/IT_Requisition_App)
+A self-hosted internal requisition platform for IT requests, conference room bookings, and leave workflows.
 
-### 💻 Key Internal Projects
+**Highlights**
+- Multi-role system for users, IT staff, and management
+- Sequential request IDs and status tracking
+- Searchable request history and approval workflow
+- Built for real internal business use
 
-**PES Projects Timeline**
-A self-hosted internal project tracking system designed to enhance transparency across departments.
-* **Tech:** Python Flask, SQLite, Tailwind CSS, JavaScript.
-* **Features:** Color-coded timelines, automatic timestamps, and admin-only controls.
-* **Deployment:** Internal infrastructure using Waitress WSGI.
-
-**IT Requisition System**
-A web application to digitize the submission and approval workflow for IT and leave requisitions.
-* **Tech:** Python Flask, SQLite, Tailwind CSS.
-* **Features:** Multi-portal system (User/IT/Manager), sequential request IDs, and status tracking.
+**Tech**
+Python, Flask, SQLite, HTML, CSS, JavaScript, Tailwind CSS
 
 ---
 
-### 📊 GitHub Stats
+### [Projects Timeline](https://github.com/talalahmad34/Projects_Timeline)
+An internal project tracking system designed to improve cross-department visibility and project transparency.
 
-![Talal's GitHub stats](https://github-readme-stats.vercel.app/api?username=talalahmad34&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=talalahmad34&layout=compact&theme=radical)
+**Highlights**
+- Timeline-based project visibility
+- Color-coded tracking for clarity
+- Admin controls and operational simplicity
+- Built to support real organizational reporting
+
+**Tech**
+Python, Flask, SQLite, JavaScript, Tailwind CSS
 
 ---
 
-### 📫 Connect with Me
+### [Wedding Guests Planner](https://github.com/talalahmad34/wedding-guests-planner)
+A local-first planning app for organizing guest lists, categories, headcounts, sorting, and PDF reporting.
 
-* [**LinkedIn**](https://www.linkedin.com/in/talal-chohan)
-* [**Email**](mailto:talalahmad34@gmail.com)
+**Highlights**
+- Category and guest group management
+- Search, sorting, and reorder support
+- PDF export for reporting
+- Desktop-style launch flow with silent background handling
+
+**Tech**
+Python, FastAPI, SQLite, HTML, CSS, JavaScript
+
+## Technical Skills
+
+### Software Development
+- Python
+- Flask
+- FastAPI
+- JavaScript
+- HTML5
+- CSS3
+- Tailwind CSS
+- SQLite
+
+### Infrastructure & Operations
+- Network administration
+- Firewall and access control management
+- VPN deployment and security controls
+- NAS and backup planning
+- CCTV / DVR / NVR systems
+- IT operations leadership
+
+### Platforms & Certifications
+- Cisco
+- Huawei
+- Microsoft Azure
+- CCNA
+- HCIA
+
+### AI & Productivity
+- AI-assisted workflow improvement
+- Prompt engineering
+- Practical AI adoption for business use
+
+## Professional Approach
+
+- Build practical systems that solve real problems
+- Prefer clear architecture over unnecessary complexity
+- Focus on performance, reliability, and maintainability
+- Use technology to improve process, accountability, and visibility
+
+## GitHub Stats
+
+![Talal's GitHub stats](https://github-readme-stats.vercel.app/api?username=talalahmad34&show_icons=true&theme=default)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=talalahmad34&layout=compact&theme=default)
+
+## Connect
+
+- [LinkedIn](https://www.linkedin.com/in/talal-chohan)
+- [Email](mailto:talalahmad34@gmail.com)
