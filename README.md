@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:7aa2f7&height=220&section=header&text=Talal%20Ahmad%20Chohan&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Head%20of%20IT%20%26%20MIS%20%7C%20Infrastructure%20Leader%20%7C%20Python%20Web%20App%20Builder&descAlignY=58&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:7aa2f7&height=220&section=header&text=Talal%20Ahmad%20Chohan&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Head%20of%20IT%20%26%20MIS%20%7C%20Infrastructure%20Leader%20%7C%20Backend%20%26%20Systems%20Engineer&descAlignY=58&descSize=16" width="100%"/>
 
 <a href="https://github.com/talalahmad34">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Building+practical+systems+for+real+operations;Python+%2B+Flask+%2F+FastAPI+web+apps;Network+%26+Infrastructure+leadership;Turning+manual+processes+into+software&font=Fira+Code&center=true&width=650&height=45&color=7aa2f7&vCenter=true&size=22&pause=1500" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=Building+practical+systems+for+real+operations;Backend+services+in+Python%2C+backed+by+relational+data;Network+%26+Infrastructure+leadership;Turning+manual+processes+into+software&font=Fira+Code&center=true&width=650&height=45&color=7aa2f7&vCenter=true&size=22&pause=1500" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -39,7 +39,7 @@ Bridge technical implementation with business needs
 ## Current Focus
 
 - 🔧 Internal process digitization and workflow automation
-- 🐍 Python web applications using Flask, FastAPI, SQLite, and JavaScript
+- 🐍 Python backend services with relational data models, exposed through browser-based tooling
 - 🌐 Network reliability, security hardening, and infrastructure planning
 - 🤖 Practical use of AI tools for productivity and insight extraction
 
@@ -47,67 +47,58 @@ Bridge technical implementation with business needs
 
 ## Featured Projects
 
-<div align="center">
-
-<a href="https://github.com/talalahmad34/IT_Requisition_App">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=talalahmad34&repo=IT_Requisition_App&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/talalahmad34/Projects_Timeline">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=talalahmad34&repo=Projects_Timeline&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/talalahmad34/Nodes_Homepage">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=talalahmad34&repo=Nodes_Homepage&theme=tokyonight&hide_border=true" />
-</a>
-
-</div>
-
 ### [IT Requisition App](https://github.com/talalahmad34/IT_Requisition_App)
-A self-hosted internal web app for Pakistan Engineering Services (PES) that manages IT, conference room, and leave requisitions.
+A self-hosted internal platform for Pakistan Engineering Services (PES) that manages IT, conference room, and leave requisitions end to end.
 
-- Multi-role system for users, IT staff, and management
-- Sequential request IDs and status tracking
-- Password-protected approval portals for IT and managers
-- Built for real internal business use
+- Role-based access for requesters, IT staff, and management
+- Sequential request IDs with full status tracking and audit history
+- Password-protected approval portals per role
+- Deployed and running for real internal business use
 
-`Python` `Flask` `SQLite` `HTML` `CSS` `JavaScript` `Tailwind CSS`
+**Stack:** server-rendered Python backend, relational data model (SQLite), REST-style request/approval workflow
+
+![Last Commit](https://img.shields.io/github/last-commit/talalahmad34/IT_Requisition_App?style=flat-square&color=7aa2f7&labelColor=1a1b27)
+![Top Language](https://img.shields.io/github/languages/top/talalahmad34/IT_Requisition_App?style=flat-square&color=7aa2f7&labelColor=1a1b27)
 
 ---
 
 ### [Projects Timeline](https://github.com/talalahmad34/Projects_Timeline)
-A self-hosted internal project tracking and status management system.
+A self-hosted internal project tracking and status management system built for cross-department visibility.
 
-- Timeline-based project visibility
-- Color-coded tracking for clarity
-- Admin controls and operational simplicity
-- Built to support real organizational reporting
+- Timeline-based project visibility with color-coded status states
+- Admin controls for organizational reporting
+- Built to replace manual spreadsheet-based tracking
 
-`Python` `Flask` `SQLite` `JavaScript` `Tailwind CSS`
+**Stack:** Python backend, relational data model (SQLite), server-rendered UI
+
+![Last Commit](https://img.shields.io/github/last-commit/talalahmad34/Projects_Timeline?style=flat-square&color=7aa2f7&labelColor=1a1b27)
+![Top Language](https://img.shields.io/github/languages/top/talalahmad34/Projects_Timeline?style=flat-square&color=7aa2f7&labelColor=1a1b27)
 
 ---
 
 ### [Nodes Homepage](https://github.com/talalahmad34/Nodes_Homepage)
-A minimal Chrome new-tab extension with a networking-inspired look — a live clock, custom pinned shortcut tiles, a search console, and utility/telemetry widgets.
+A Chrome new-tab extension with a networking-inspired interface — a live clock, custom pinned shortcut tiles, an integrated search console, and live utility/telemetry widgets.
 
-- Custom new-tab replacement built as a browser extension
-- Pinned shortcut tiles and integrated search
-- Live utility and telemetry-style widgets
+- Custom browser extension replacing the default new-tab page
+- Component-driven front-end architecture
+- Real-time UI state (clock, telemetry simulation)
 
-`TypeScript` `JavaScript` `HTML` `CSS`
+**Stack:** TypeScript, browser extension APIs
+
+![Last Commit](https://img.shields.io/github/last-commit/talalahmad34/Nodes_Homepage?style=flat-square&color=7aa2f7&labelColor=1a1b27)
+![Top Language](https://img.shields.io/github/languages/top/talalahmad34/Nodes_Homepage?style=flat-square&color=7aa2f7&labelColor=1a1b27)
 
 <br/>
 
 ## Technical Skills
 
-**Software Development**
+**Backend & Systems Development**
 
-![Python](https://img.shields.io/badge/Python-1a1b27?style=for-the-badge&logo=python&logoColor=7aa2f7)
-![Flask](https://img.shields.io/badge/Flask-1a1b27?style=for-the-badge&logo=flask&logoColor=7aa2f7)
-![FastAPI](https://img.shields.io/badge/FastAPI-1a1b27?style=for-the-badge&logo=fastapi&logoColor=7aa2f7)
-![JavaScript](https://img.shields.io/badge/JavaScript-1a1b27?style=for-the-badge&logo=javascript&logoColor=7aa2f7)
-![HTML5](https://img.shields.io/badge/HTML5-1a1b27?style=for-the-badge&logo=html5&logoColor=7aa2f7)
-![CSS3](https://img.shields.io/badge/CSS3-1a1b27?style=for-the-badge&logo=css3&logoColor=7aa2f7)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-1a1b27?style=for-the-badge&logo=tailwindcss&logoColor=7aa2f7)
-![SQLite](https://img.shields.io/badge/SQLite-1a1b27?style=for-the-badge&logo=sqlite&logoColor=7aa2f7)
+![Python](https://img.shields.io/badge/Server--Side_Python-1a1b27?style=for-the-badge&logo=python&logoColor=7aa2f7)
+![APIs](https://img.shields.io/badge/REST_%26_Service_APIs-1a1b27?style=for-the-badge&logo=fastapi&logoColor=7aa2f7)
+![Relational Data](https://img.shields.io/badge/Relational_Data_Modeling-1a1b27?style=for-the-badge&logo=sqlite&logoColor=7aa2f7)
+![TypeScript](https://img.shields.io/badge/TypeScript-1a1b27?style=for-the-badge&logo=typescript&logoColor=7aa2f7)
+![Frontend](https://img.shields.io/badge/Frontend_Engineering-1a1b27?style=for-the-badge&logo=javascript&logoColor=7aa2f7)
 
 **Infrastructure & Operations**
 
@@ -144,10 +135,11 @@ A minimal Chrome new-tab extension with a networking-inspired look — a live cl
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=talalahmad34&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=talalahmad34&layout=compact&theme=tokyonight&hide_border=true" width="30%" />
-
 <img src="https://streak-stats.demolab.com/?user=talalahmad34&theme=tokyonight&hide_border=true" width="60%" />
+
+<br/>
+
+![Followers](https://img.shields.io/github/followers/talalahmad34?style=for-the-badge&color=7aa2f7&labelColor=1a1b27&label=Followers)
 
 </div>
 
