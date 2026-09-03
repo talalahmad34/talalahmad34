@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:7aa2f7&height=220&section=header&text=Talal%20Ahmad%20Chohan&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Head%20of%20IT%20%26%20MIS%20%7C%20Infrastructure%20Leader%20%7C%20Backend%20%26%20Systems%20Engineer&descAlignY=58&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:7aa2f7&height=220&section=header&text=Talal%20Ahmad%20Chohan&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Head%20of%20IT%20%26amp%3B%20MIS%20%7C%20Infrastructure%20Leader%20%7C%20Backend%20%26amp%3B%20Systems%20Engineer&descAlignY=58&descSize=16" width="100%" alt="Talal Ahmad Chohan - Head of IT and MIS | Infrastructure Leader | Backend and Systems Engineer"/>
 
 <a href="https://github.com/talalahmad34">
   <img src="https://readme-typing-svg.demolab.com/?lines=Building+practical+systems+for+real+operations;Backend+services+in+Python%2C+backed+by+relational+data;Network+%26+Infrastructure+leadership;Turning+manual+processes+into+software&font=Fira+Code&center=true&width=650&height=45&color=7aa2f7&vCenter=true&size=22&pause=1500" alt="Typing SVG" />
@@ -148,7 +148,11 @@ A Chrome new-tab extension with a networking-inspired interface — a live clock
 ## Contribution Graph
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/talalahmad34/talalahmad34/output/github-contribution-grid-snake-dark.svg" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/talalahmad34/talalahmad34/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/talalahmad34/talalahmad34/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/talalahmad34/talalahmad34/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake animation of talalahmad34's GitHub contribution grid" />
+</picture>
 </div>
 
 <br/>
