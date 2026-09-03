@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:7aa2f7&height=220&section=header&text=Talal%20Ahmad%20Chohan&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Head%20of%20IT%20%26amp%3B%20MIS%20%7C%20Infrastructure%20Leader%20%7C%20Backend%20%26amp%3B%20Systems%20Engineer&descAlignY=58&descSize=16" width="100%" alt="Talal Ahmad Chohan - Head of IT and MIS | Infrastructure Leader | Backend and Systems Engineer"/>
 
 <a href="https://github.com/talalahmad34">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Building+practical+systems+for+real+operations;Backend+services+in+Python%2C+backed+by+relational+data;Network+%26+Infrastructure+leadership;Turning+manual+processes+into+software&font=Fira+Code&center=true&width=650&height=45&color=7aa2f7&vCenter=true&size=22&pause=1500" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=Building+practical+systems+for+real+operations;Backend+services+in+Python%2C+backed+by+relational+data;Network+%26+Infrastructure+leadership;Turning+manual+processes+into+software&font=Fira+Code&center=true&width=780&height=45&color=7aa2f7&vCenter=true&size=22&pause=1500" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -87,6 +87,22 @@ A Chrome new-tab extension with a networking-inspired interface — a live clock
 
 ![Last Commit](https://img.shields.io/github/last-commit/talalahmad34/Nodes_Homepage?style=flat-square&color=7aa2f7&labelColor=1a1b27)
 ![Top Language](https://img.shields.io/github/languages/top/talalahmad34/Nodes_Homepage?style=flat-square&color=7aa2f7&labelColor=1a1b27)
+
+---
+
+### [Frostpane](https://github.com/talalahmad34/frostpane-home)
+A calm, glass-textured new tab page for Chrome and Brave — a live clock, quick search, and a 12-tile bookmark grid wrapped in an animated frosted-glass surface.
+
+- Three selectable layouts (Open Stack, Single Panel, Quiet Dock)
+- Frosted-glass favicon treatment with a cursor-tracked specular highlight
+- Favicons cached locally per domain with root-domain fallback, so new tabs open with no repeat network calls
+- Full keyboard navigation, drag-to-reorder tiles, and JSON export/import
+- Manifest V3, zero runtime dependencies, MIT licensed
+
+**Stack:** JavaScript, CSS, Chrome Extension APIs (Manifest V3)
+
+![Last Commit](https://img.shields.io/github/last-commit/talalahmad34/frostpane-home?style=flat-square&color=7aa2f7&labelColor=1a1b27)
+![Top Language](https://img.shields.io/github/languages/top/talalahmad34/frostpane-home?style=flat-square&color=7aa2f7&labelColor=1a1b27)
 
 <br/>
 
