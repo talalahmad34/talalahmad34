@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 224" width="1200" height="224" role="img" aria-label="Stack: build with Python, Flask, SQLAlchemy, SQLite, TypeScript, React, JavaScript, Manifest V3; keep running Self-hosting, Networks, Firewalls, VPN, Backups; certified CCNA, HCIA">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f1f"/><stop offset=".6" stop-color="#101937"/><stop offset="1" stop-color="#0b1124"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="224" rx="20" fill="url(#bg)"/>
+  <circle cx="50" cy="52" r="4.5" fill="#7dcfff"/>
+  <text x="66" y="57" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="2" fill="#7dcfff">BUILD WITH</text>
+  <g font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="16" text-anchor="middle" fill="#c0caf5">
+      <g fill="#7dcfff" fill-opacity=".10" stroke="#7dcfff" stroke-opacity=".42"><rect x="214" y="34" width="87" height="36" rx="18"/><rect x="311" y="34" width="78" height="36" rx="18"/><rect x="399" y="34" width="126" height="36" rx="18"/><rect x="535" y="34" width="87" height="36" rx="18"/><rect x="632" y="34" width="126" height="36" rx="18"/><rect x="768" y="34" width="78" height="36" rx="18"/><rect x="856" y="34" width="126" height="36" rx="18"/><rect x="992" y="34" width="136" height="36" rx="18"/></g>
+      <text x="257.5" y="57.6">Python</text><text x="350" y="57.6">Flask</text><text x="462" y="57.6">SQLAlchemy</text><text x="578.5" y="57.6">SQLite</text><text x="695" y="57.6">TypeScript</text><text x="807" y="57.6">React</text><text x="919" y="57.6">JavaScript</text><text x="1060" y="57.6">Manifest V3</text>
+    </g>
+  <circle cx="50" cy="112" r="4.5" fill="#9ece6a"/>
+  <text x="66" y="117" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="2" fill="#9ece6a">KEEP RUNNING</text>
+  <g font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="16" text-anchor="middle" fill="#c0caf5">
+      <g fill="#9ece6a" fill-opacity=".10" stroke="#9ece6a" stroke-opacity=".42"><rect x="214" y="94" width="146" height="36" rx="18"/><rect x="370" y="94" width="107" height="36" rx="18"/><rect x="487" y="94" width="117" height="36" rx="18"/><rect x="614" y="94" width="58" height="36" rx="18"/><rect x="682" y="94" width="97" height="36" rx="18"/></g>
+      <text x="287" y="117.6">Self-hosting</text><text x="423.5" y="117.6">Networks</text><text x="545.5" y="117.6">Firewalls</text><text x="643" y="117.6">VPN</text><text x="730.5" y="117.6">Backups</text>
+    </g>
+  <circle cx="50" cy="172" r="4.5" fill="#bb9af7"/>
+  <text x="66" y="177" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="2" fill="#bb9af7">CERTIFIED</text>
+  <g font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="16" text-anchor="middle" fill="#c0caf5">
+      <g fill="#bb9af7" fill-opacity=".10" stroke="#bb9af7" stroke-opacity=".42"><rect x="214" y="154" width="68" height="36" rx="18"/><rect x="292" y="154" width="68" height="36" rx="18"/></g>
+      <text x="248" y="177.6">CCNA</text><text x="326" y="177.6">HCIA</text>
+    </g>
+  <rect x=".75" y=".75" width="1198.5" height="222.5" rx="19.5" fill="none" stroke="#7aa2f7" stroke-opacity=".28" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Talal Ahmad - I make computers do things for humans">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f1f"/>
+      <stop offset=".55" stop-color="#101937"/>
+      <stop offset="1" stop-color="#0b1124"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="78%" cy="52%" r="46%">
+      <stop offset="0" stop-color="#7aa2f7" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="6%" cy="0%" r="55%">
+      <stop offset="0" stop-color="#bb9af7" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#bb9af7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#a9c1ff"/>
+    </linearGradient>
+    <linearGradient id="fadeX" x1="0" y1="0" x2="1" y2="0">
+      <stop offset=".35" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#7aa2f7" opacity=".38"/>
+    </pattern>
+    <mask id="dotMask"><rect width="1200" height="400" fill="url(#fadeX)"/></mask>
+    <filter id="glow" x="-300%" y="-300%" width="700%" height="700%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="card"><rect width="1200" height="400" rx="22"/></clipPath>
+
+    <path id="r1" d="M800 100 L930 200 L1060 90"/>
+    <path id="r2" d="M735 185 L930 200 L1130 170"/>
+    <path id="r3" d="M745 285 L930 200 L1135 270"/>
+    <path id="r4" d="M830 345 L930 200 L1050 340"/>
+
+    <clipPath id="t0"><rect x="84" y="240" height="34" width="0"><animate attributeName="width" dur="16s" begin="0s" repeatCount="indefinite" values="0;560;560;0;0" keyTimes="0;0.09;0.235;0.236;1"/></rect></clipPath>
+    <clipPath id="t1"><rect x="84" y="240" height="34" width="0"><animate attributeName="width" dur="16s" begin="4s" repeatCount="indefinite" values="0;560;560;0;0" keyTimes="0;0.09;0.235;0.236;1"/></rect></clipPath>
+    <clipPath id="t2"><rect x="84" y="240" height="34" width="0"><animate attributeName="width" dur="16s" begin="8s" repeatCount="indefinite" values="0;560;560;0;0" keyTimes="0;0.09;0.235;0.236;1"/></rect></clipPath>
+    <clipPath id="t3"><rect x="84" y="240" height="34" width="0"><animate attributeName="width" dur="16s" begin="12s" repeatCount="indefinite" values="0;560;560;0;0" keyTimes="0;0.09;0.235;0.236;1"/></rect></clipPath>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace; }
+    .link { stroke: #7aa2f7; stroke-opacity: .30; stroke-width: 1.5; }
+    .flow { stroke: #7dcfff; stroke-opacity: .55; stroke-width: 1.5; stroke-dasharray: 3 13; animation: flow 1.6s linear infinite; }
+    .node { fill: #0b1124; stroke: #7aa2f7; stroke-width: 2; }
+    .lbl  { font-size: 11px; letter-spacing: 1.6px; fill: #8c98c6; }
+    .ring { fill: none; stroke: #7aa2f7; stroke-width: 1.5; transform-box: fill-box; transform-origin: center; animation: ring 3.2s ease-out infinite; }
+    @keyframes flow  { to { stroke-dashoffset: -32; } }
+    @keyframes ring  { 0% { transform: scale(1); opacity: .7; } 100% { transform: scale(3.2); opacity: 0; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="400" fill="url(#bg)"/>
+    <rect width="1200" height="400" fill="url(#dots)" mask="url(#dotMask)"/>
+    <rect width="1200" height="400" fill="url(#glowA)"/>
+    <rect width="1200" height="400" fill="url(#glowB)"/>
+
+    <!-- graph: what I build with (left) -> what I ship (right) -->
+    <g fill="none">
+      <g class="link">
+        <path d="M800 100 L930 200 L1060 90"/>
+        <path d="M735 185 L930 200 L1130 170"/>
+        <path d="M745 285 L930 200 L1135 270"/>
+        <path d="M830 345 L930 200 L1050 340"/>
+      </g>
+      <g class="flow">
+        <path d="M930 200 L1060 90"/>
+        <path d="M930 200 L1130 170"/>
+        <path d="M930 200 L1135 270"/>
+        <path d="M930 200 L1050 340"/>
+      </g>
+    </g>
+
+    <g filter="url(#glow)">
+      <circle r="3.5" fill="#7dcfff"><animateMotion dur="4.6s" repeatCount="indefinite"><mpath xlink:href="#r1"/></animateMotion></circle>
+      <circle r="3.5" fill="#bb9af7"><animateMotion dur="5.4s" begin="1.2s" repeatCount="indefinite"><mpath xlink:href="#r2"/></animateMotion></circle>
+      <circle r="3.5" fill="#9ece6a"><animateMotion dur="5s" begin="2.1s" repeatCount="indefinite"><mpath xlink:href="#r3"/></animateMotion></circle>
+      <circle r="3.5" fill="#7dcfff"><animateMotion dur="4.2s" begin="0.6s" repeatCount="indefinite"><mpath xlink:href="#r4"/></animateMotion></circle>
+    </g>
+
+    <g>
+      <circle class="ring" cx="930" cy="200" r="13"/>
+      <circle class="ring" cx="1060" cy="90" r="9" style="animation-delay:.8s"/>
+      <circle class="ring" cx="1135" cy="270" r="9" style="animation-delay:1.6s"/>
+      <circle class="ring" cx="1050" cy="340" r="9" style="animation-delay:2.4s"/>
+
+      <circle class="node" cx="800" cy="100" r="6"/>
+      <circle class="node" cx="735" cy="185" r="6"/>
+      <circle class="node" cx="745" cy="285" r="6"/>
+      <circle class="node" cx="830" cy="345" r="6"/>
+
+      <g fill="#7dcfff" filter="url(#glow)">
+        <circle cx="1060" cy="90" r="7"/>
+        <circle cx="1130" cy="170" r="7"/>
+        <circle cx="1135" cy="270" r="7"/>
+        <circle cx="1050" cy="340" r="7"/>
+      </g>
+      <circle cx="930" cy="200" r="13" fill="#7aa2f7" filter="url(#glow)"/>
+      <circle cx="930" cy="200" r="5" fill="#0b1124"/>
+    </g>
+
+    <g class="mono lbl" text-anchor="middle">
+      <text x="800" y="82">PYTHON</text>
+      <text x="735" y="212">SQLITE</text>
+      <text x="745" y="312">TYPESCRIPT</text>
+      <text x="830" y="372">JAVASCRIPT</text>
+      <g fill="#e6ebff">
+        <text x="1060" y="70">REQUISITION</text>
+        <text x="1130" y="198">TIMELINE</text>
+        <text x="1135" y="298">NODES</text>
+        <text x="1050" y="368">FROSTPANE</text>
+      </g>
+    </g>
+
+    <!-- identity -->
+    <circle cx="70" cy="91" r="5" fill="#9ece6a" filter="url(#glow)"/>
+    <text class="mono" x="86" y="96" font-size="15" fill="#7dcfff">talal@lahore:~$ <tspan fill="#c0caf5">whoami</tspan></text>
+
+    <text class="sans" x="62" y="170" font-size="58" font-weight="800" letter-spacing="-1.2" fill="url(#name)">Talal Ahmad</text>
+    <text class="sans" x="64" y="208" font-size="19" fill="#a9b1d6">I make computers do things for humans.</text>
+
+    <text class="mono" x="64" y="263" font-size="18" fill="#7dcfff">›</text>
+    <g class="mono" font-size="18" fill="#e6ebff">
+      <text x="88" y="263" clip-path="url(#t0)">shipping tools people actually use</text>
+      <text x="88" y="263" clip-path="url(#t1)">python + sqlite on the backend</text>
+      <text x="88" y="263" clip-path="url(#t2)">typescript + manifest v3 in the browser</text>
+      <text x="88" y="263" clip-path="url(#t3)">by day: running IT &amp; infrastructure</text>
+    </g>
+
+    <g class="mono" font-size="13" text-anchor="middle" fill="#c0caf5">
+      <g fill="#7aa2f7" fill-opacity=".10" stroke="#7aa2f7" stroke-opacity=".40">
+        <rect x="64" y="300" width="76" height="30" rx="15"/>
+        <rect x="150" y="300" width="106" height="30" rx="15"/>
+        <rect x="266" y="300" width="106" height="30" rx="15"/>
+        <rect x="382" y="300" width="76" height="30" rx="15"/>
+        <rect x="468" y="300" width="114" height="30" rx="15"/>
+      </g>
+      <text x="102" y="320">Python</text>
+      <text x="203" y="320">TypeScript</text>
+      <text x="319" y="320">JavaScript</text>
+      <text x="420" y="320">SQLite</text>
+      <text x="525" y="320">Self-hosted</text>
+    </g>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="398.5" rx="21.5" fill="none" stroke="#7aa2f7" stroke-opacity=".28" stroke-width="1.5"/>
+</svg>

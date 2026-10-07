@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 300" width="600" height="300" role="img" aria-label="Projects Timeline - Project tracking on a colour-coded timeline, built to replace spreadsheet status reports.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f1f"/><stop offset=".6" stop-color="#101937"/><stop offset="1" stop-color="#0b1124"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="88%" cy="18%" r="60%">
+      <stop offset="0" stop-color="#ff9e64" stop-opacity=".26"/><stop offset="1" stop-color="#ff9e64" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card"><rect width="600" height="300" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="600" height="300" fill="url(#bg)"/>
+    <rect width="600" height="300" fill="url(#glow)"/>
+    
+    <path d="M452 110 H564" stroke="#ff9e64" stroke-opacity=".45"/>
+    <g stroke="#ff9e64" stroke-opacity=".25"><path d="M480 34 V110"/><path d="M508 34 V110"/><path d="M536 34 V110"/></g>
+    <rect x="452" y="40" height="10" rx="5" width="62" fill="#9ece6a"><animate attributeName="width" values="0;62;62;0" keyTimes="0;.25;.92;1" dur="7s" begin="0s" repeatCount="indefinite"/></rect><rect x="474" y="58" height="10" rx="5" width="70" fill="#ff9e64"><animate attributeName="width" values="0;70;70;0" keyTimes="0;.25;.92;1" dur="7s" begin="0.5s" repeatCount="indefinite"/></rect><rect x="500" y="76" height="10" rx="5" width="48" fill="#7dcfff"><animate attributeName="width" values="0;48;48;0" keyTimes="0;.25;.92;1" dur="7s" begin="1s" repeatCount="indefinite"/></rect><rect x="522" y="94" height="10" rx="5" width="42" fill="#bb9af7"><animate attributeName="width" values="0;42;42;0" keyTimes="0;.25;.92;1" dur="7s" begin="1.5s" repeatCount="indefinite"/></rect>
+    <circle cx="44" cy="55" r="4.5" fill="#ff9e64"/>
+    <text x="58" y="60" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="2" fill="#ff9e64">SELF-HOSTED WEB APP</text>
+    <text x="38" y="124" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="-.8" fill="#ffffff">Projects Timeline</text>
+    <text font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#a9b1d6">
+      <tspan x="40" y="164">Project tracking on a colour-coded timeline,</tspan>
+      <tspan x="40" y="190">built to replace spreadsheet status reports.</tspan>
+    </text>
+    <g font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="14" text-anchor="middle" fill="#c0caf5">
+      <g fill="#ff9e64" fill-opacity=".10" stroke="#ff9e64" stroke-opacity=".42"><rect x="40" y="232" width="76" height="30" rx="15"/><rect x="126" y="232" width="68" height="30" rx="15"/><rect x="204" y="232" width="111" height="30" rx="15"/><rect x="325" y="232" width="76" height="30" rx="15"/></g>
+      <text x="78" y="251.9">Python</text><text x="160" y="251.9">Flask</text><text x="259.5" y="251.9">SQLAlchemy</text><text x="363" y="251.9">SQLite</text>
+    </g>
+    <text x="560" y="254" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="22" fill="#ff9e64">→<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="2.4s" repeatCount="indefinite"/></text>
+  </g>
+  <rect x=".75" y=".75" width="598.5" height="298.5" rx="19.5" fill="none" stroke="#ff9e64" stroke-opacity=".32" stroke-width="1.5"/>
+</svg>

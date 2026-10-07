@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 300" width="600" height="300" role="img" aria-label="Nodes Homepage - A new tab page with a network-console feel: pinned nodes, command search, live backdrops.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f1f"/><stop offset=".6" stop-color="#101937"/><stop offset="1" stop-color="#0b1124"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="88%" cy="18%" r="60%">
+      <stop offset="0" stop-color="#9ece6a" stop-opacity=".26"/><stop offset="1" stop-color="#9ece6a" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card"><rect width="600" height="300" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="600" height="300" fill="url(#bg)"/>
+    <rect width="600" height="300" fill="url(#glow)"/>
+    
+    <path id="np" d="M462 96 L500 54 L536 84 L560 44" fill="none" stroke="#9ece6a" stroke-opacity=".5" stroke-width="1.5"/>
+    <path d="M500 54 L512 108 L536 84" fill="none" stroke="#9ece6a" stroke-opacity=".5" stroke-width="1.5"/>
+    <g fill="#0b1124" stroke="#9ece6a" stroke-width="2">
+      <circle cx="462" cy="96" r="6"/><circle cx="536" cy="84" r="6"/><circle cx="560" cy="44" r="6"/><circle cx="512" cy="108" r="6"/>
+    </g>
+    <circle cx="500" cy="54" r="8" fill="#9ece6a"/>
+    <circle cx="500" cy="54" r="8" fill="none" stroke="#9ece6a"><animate attributeName="r" values="8;22" dur="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle r="3" fill="#ffffff"><animateMotion dur="3.2s" repeatCount="indefinite"><mpath xlink:href="#np"/></animateMotion></circle>
+    <circle cx="44" cy="55" r="4.5" fill="#9ece6a"/>
+    <text x="58" y="60" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="14" letter-spacing="2" fill="#9ece6a">BROWSER EXTENSION</text>
+    <text x="38" y="124" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="-.8" fill="#ffffff">Nodes Homepage</text>
+    <text font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#a9b1d6">
+      <tspan x="40" y="164">A new tab page with a network-console feel:</tspan>
+      <tspan x="40" y="190">pinned nodes, command search, live backdrops.</tspan>
+    </text>
+    <g font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="14" text-anchor="middle" fill="#c0caf5">
+      <g fill="#9ece6a" fill-opacity=".10" stroke="#9ece6a" stroke-opacity=".42"><rect x="40" y="232" width="111" height="30" rx="15"/><rect x="161" y="232" width="68" height="30" rx="15"/><rect x="239" y="232" width="59" height="30" rx="15"/><rect x="308" y="232" width="119" height="30" rx="15"/></g>
+      <text x="95.5" y="251.9">TypeScript</text><text x="195" y="251.9">React</text><text x="268.5" y="251.9">Vite</text><text x="367.5" y="251.9">Manifest V3</text>
+    </g>
+    <text x="560" y="254" text-anchor="end" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="22" fill="#9ece6a">→<animateTransform attributeName="transform" type="translate" values="0 0;5 0;0 0" dur="2.4s" repeatCount="indefinite"/></text>
+  </g>
+  <rect x=".75" y=".75" width="598.5" height="298.5" rx="19.5" fill="none" stroke="#9ece6a" stroke-opacity=".32" stroke-width="1.5"/>
+</svg>
